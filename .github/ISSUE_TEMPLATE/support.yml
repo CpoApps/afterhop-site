@@ -1,0 +1,19 @@
+name: AFTERHOP support
+description: Report a gameplay problem or ask for help.
+title: "AFTERHOP support: "
+body:
+  - type: markdown
+    attributes:
+      value: "This tracker is public. Do not include passwords, Apple Account details, payment information, or private personal data. TestFlight testers can also use Send Beta Feedback."
+  - type: input
+    id: device
+    attributes:
+      label: Device and software
+      description: "For example: iPhone model, iOS version, and AFTERHOP version."
+  - type: textarea
+    id: issue
+    attributes:
+      label: What happened?
+      description: Describe the issue and steps to reproduce it. Remove personal information from screenshots.
+    validations:
+      required: true

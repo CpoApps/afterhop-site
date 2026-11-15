@@ -1,0 +1,14 @@
+name: AFTERHOP privacy question
+description: Ask about privacy or the available data controls.
+title: "AFTERHOP privacy: "
+body:
+  - type: markdown
+    attributes:
+      value: "This tracker is public. Start with a general question only. Do not post sensitive personal information, passwords, Apple Account details, or payment information."
+  - type: textarea
+    id: request
+    attributes:
+      label: General description of your request
+      description: Tell us what help you need without including private information.
+    validations:
+      required: true
